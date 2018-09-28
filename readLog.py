@@ -36,7 +36,7 @@ sorted_res = sorted(rescode.items(), key=operator.itemgetter(0))
 
 # Imprime os tres maiores urls em quantidade e a tabela com os codes e quantidades 
 for i in range(3):
-    print (sorted_url[i][0], '-', sorted_url[i][1])
+    print str(sorted_url[i][0]) + ' - ' + str(sorted_url[i][1])
 print('\n')
 for r in sorted_res:
-    print (r[0], '-', r[1])
+    print str(r[0]) + ' - ' + str(r[1])
