@@ -1,6 +1,6 @@
 # Log Parser
 
-O Log Parser foi escrito em Python3.
+O Log Parser foi escrito em Python.
 Ele lê um arquivo de log de envios de webhook, nomeado log.txt que contém informações no formato:
 
 level=info response_body="" request_to" url " response_headers= response_status=" code "
@@ -12,7 +12,7 @@ O programa então analiza a informação e retorna:
   
 Para executar, basta dar o comando:
 
-python3 readLog.py
+python readLog.py
 
 no Terminal, desde que os arquivos readLog.py e log.txt estejam no mesmo diretório.
 
