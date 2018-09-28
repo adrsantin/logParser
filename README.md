@@ -15,3 +15,5 @@ Para executar, basta dar o comando:
 python3 readLog.py
 
 no Terminal, desde que os arquivos readLog.py e log.txt estejam no mesmo diretório.
+
+A documentação de como o programa funciona internamente se encontra em comentários no código-fonte.
