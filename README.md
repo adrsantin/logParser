@@ -1,6 +1,6 @@
 # Log Parser
 
-O Log Parser foi escrito em Python, e desenvolvido no SO Ubuntu 16.10.
+O Log Parser foi escrito em Python, e desenvolvido no SO Ubuntu 18.04.
 
 Ele lê um arquivo de log de envios de webhook, nomeado log.txt que contém informações no formato:
 
